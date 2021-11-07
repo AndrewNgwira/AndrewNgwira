@@ -23,6 +23,7 @@ image2.setAttribute("src", randomImageSource2);
 // change to title to display winner
 
 if(randomNumber1 > randomNumber2){
+  document.querySelector("h1").innerHTML = " Player1 Wins!!!";
   document.querySelector("h1").innerHTML = "Player1 Wins!!!";
 }
 else if (randomNumber2 > randomNumber1) {

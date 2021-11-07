@@ -1,1 +1,8 @@
-h1{color: red;}
+.invisible{
+  visibility: hidden;
+}
+.huge{
+  font-size: 15rem;
+  color: red;
+  font-weight: bold;
+}
