@@ -24,6 +24,7 @@ image2.setAttribute("src", randomImageSource2);
 
 if(randomNumber1 > randomNumber2){
   document.querySelector("h1").innerHTML = " Player1 Wins!!!";
+  document.querySelector("h1").innerHTML = "Player1 Wins!!!";
 }
 else if (randomNumber2 > randomNumber1) {
   document.querySelector("h1").innerHTML = "Player2 Wins!!!"
